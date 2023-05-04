@@ -1,0 +1,59 @@
+body { 
+	text-align: center;
+	font-family: arial;
+	background: lightgrey; }
+
+p{
+	font-weight: bold;
+	font-size: 16,5px;
+}
+
+h1 { color: black; }
+h2 { color: grey; font-family: arial; }
+
+ul { text-align: left; }
+h3 { text-align: center; }
+
+.frame { 
+	background: whitesmoke;
+	padding: 40px;
+	margin: 40px;
+	border: solid 3px darkgrey;
+	border-radius: 30px;
+	box-shadow: 10px 10px 10px grey; }
+
+	.circle-photo{
+		width:250px;
+		height: 250px;
+		border: none;
+		border-radius: 125px;
+		object-fit: cover;
+		box-shadow: 10px 10px 10px grey;
+	}
+
+.box{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.description{
+	margin-right: 40px;
+}
+
+.my_navbar{
+	display:flex;
+	justify-content: space-between;
+	object-fit: cover;
+	width: 100%; background: whitesmoke;
+	
+
+}
+
+.links{
+	width: 280px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
